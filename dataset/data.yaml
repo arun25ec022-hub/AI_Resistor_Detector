@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 56
+names: ['1.2k ohms', '1.5k ohms', '1.8k ohms', '10 ohms', '100 ohms', '100k ohms', '100k ohms 5 bands', '10k ohms', '120 ohms', '12k ohms', '15 ohms', '150 ohms', '15k ohms', '180 ohms', '18k ohms', '1k ohms', '2.2k ohms', '2.2k ohms 5 bands', '2.7k ohms', '200 ohms 5 bands', '22 ohms 5 bands', '220 ohms', '22k ohms', '270 ohms', '27k ohms', '3.3k ohms', '3.9k ohms', '300k ohms 5 bands', '33 ohms', '330 ohms', '33k ohms', '390 ohms', '39k ohms', '4.7 ohms', '4.7k ohms', '4.7k ohms 5 bands', '47 ohms', '470 ohms', '470k ohms 5 bands', '47k ohms', '47k ohms 5 bands', '5.1k ohms 5 bands', '5.6 ohms', '5.6k ohms', '51k ohms 5 bands', '56 ohms', '560 ohms', '56k ohms', '58 ohms', '6.8k ohms', '680 ohms', '68k ohms', '8.2k ohms', '82 ohms', '820 ohms', 'busted']
+
+roboflow:
+  workspace: resistor-color-code
+  project: resistors-color
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/resistor-color-code/resistors-color/dataset/1
